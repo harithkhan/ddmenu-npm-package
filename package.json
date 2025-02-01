@@ -1,0 +1,25 @@
+{
+  "name": "ddmenu-npm-package",
+  "version": "1.0.0",
+  "description": "Harith Khan's dropdown menu package.",
+  "keywords": [
+    "dropdown",
+    "menu",
+    "h.khan"
+  ],
+  "homepage": "https://github.com/harithkhan/ddmenu-npm-package#readme",
+  "bugs": {
+    "url": "https://github.com/harithkhan/ddmenu-npm-package/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harithkhan/ddmenu-npm-package.git"
+  },
+  "license": "ISC",
+  "author": "Harith Khan <harith.akma@gmail.com> (https://github.com/harithkhan)",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
