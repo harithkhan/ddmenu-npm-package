@@ -1,4 +1,4 @@
-exports.handleDropDownClick = function(event) {
+export const handleDropDownClick = function(event) {
     const button = event.target.closest(".dropdown-button");
     const buttonStatus = button.dataset.status;
     const buttonName = button.dataset.name;
@@ -19,7 +19,7 @@ exports.handleDropDownClick = function(event) {
     }
 }
 
-exports.attachDropdownListener = function() {
+export const attachDropdownListener = function() {
     const dropDownButton = document.querySelectorAll(".dropdown-button");
     dropDownButton.forEach((button) => {
         button.addEventListener("click", handleDropDownClick);
